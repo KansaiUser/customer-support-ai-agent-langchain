@@ -157,15 +157,64 @@ console.log(data);
 
 ## Flow
 
-Load knowledge base (faqs.txt)
-Split into chunks
-Convert chunks → vector embeddings
-Store embeddings in ChromaDB
-User asks question
-Convert question → embedding
-Retrieve most relevant chunks from Chroma
-Pass:
-user question
-retrieved context
-to OpenAI LLM
-LLM generates grounded answer
+┌───────────────────────────────┐
+│      FAQs Knowledge Base      │
+│          (faqs.txt)           │
+└──────────────┬────────────────┘
+               │
+               ▼
+┌───────────────────────────────┐
+│         Text Chunking         │
+│   Split FAQs into chunks      │
+└──────────────┬────────────────┘
+               │
+               ▼
+┌───────────────────────────────┐
+│      Generate Embeddings      │
+│   Convert chunks → vectors    │
+└──────────────┬────────────────┘
+               │
+               ▼
+┌───────────────────────────────┐
+│        Store in ChromaDB      │
+│   Vector DB for retrieval     │
+└──────────────┬────────────────┘
+               │
+═══════════════╪═════════════════
+               │
+               ▼
+        ┌────────────────┐
+        │   User Query   │
+        │ "Ask Question" │
+        └───────┬────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│   Generate Query Embedding    │
+│  Convert question → vector    │
+└──────────────┬────────────────┘
+               │
+               ▼
+┌───────────────────────────────┐
+│   Semantic Search in Chroma   │
+│ Retrieve relevant chunks      │
+└──────────────┬────────────────┘
+               │
+               ▼
+┌───────────────────────────────┐
+│        Build LLM Prompt       │
+│  • User Question              │
+│  • Retrieved Context          │
+└──────────────┬────────────────┘
+               │
+               ▼
+┌───────────────────────────────┐
+│         OpenAI LLM            │
+│  Generate grounded response   │
+└──────────────┬────────────────┘
+               │
+               ▼
+┌───────────────────────────────┐
+│         Final Answer          │
+│ Context-aware AI response     │
+└───────────────────────────────┘
