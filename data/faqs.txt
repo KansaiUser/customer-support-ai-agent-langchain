@@ -1,0 +1,137 @@
+==================================================
+SKILLSYNC AI — COURSE SUPPORT KNOWLEDGE BASE
+==================================================
+
+ABOUT THE PLATFORM
+
+SkillSync AI is an AI-powered EdTech platform offering:
+- Full-stack development bootcamps
+- AI & Machine Learning programs
+- Data Analytics tracks
+- UI/UX design courses
+- Interview preparation
+- Live mentorship
+- Career transition programs
+
+The platform supports:
+- beginners
+- working professionals
+- college students
+- enterprise upskilling
+
+==================================================
+COURSE DISCOVERY & PRE-SALES
+==================================================
+
+Q: Do you provide a Full Stack Web Development course?
+A: Yes. SkillSync AI offers a 6-month Full Stack Web Development Bootcamp covering HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, APIs, authentication, deployment, and system design.
+
+Q: Do you have AI or Machine Learning courses?
+A: Yes. The AI Engineering Program includes Python, machine learning, deep learning, LLM applications, vector databases, LangChain, RAG systems, AI agents, and deployment workflows.
+
+Q: Is there a course specifically for beginners?
+A: Yes. Beginner-friendly learning paths are available with no prior coding experience required.
+
+Q: Do you provide placement assistance?
+A: Yes. Placement support includes resume reviews, mock interviews, LinkedIn optimization, job referrals, and hiring partner access.
+
+Q: Are the classes live or recorded?
+A: Most premium programs include both live mentor-led classes and recorded content for flexible learning.
+
+Q: Do you provide certificates after course completion?
+A: Yes. Industry-recognized certificates are issued after successful completion of assessments and projects.
+
+Q: Can working professionals join the courses?
+A: Yes. Weekend and evening cohorts are designed specifically for working professionals.
+
+Q: Do you provide internship opportunities?
+A: Selected advanced programs include internship and capstone project opportunities with partner companies.
+
+Q: Which programming languages are taught in the AI program?
+A: The AI program primarily uses Python along with libraries such as NumPy, Pandas, Scikit-learn, TensorFlow, and PyTorch.
+
+Q: Do you teach LangChain and AI agents?
+A: Yes. The Generative AI track includes LangChain, Retrieval-Augmented Generation (RAG), AI agents, vector databases, prompt engineering, and LLM application deployment.
+
+==================================================
+PRICING & PAYMENT QUESTIONS
+==================================================
+
+Q: What is the fee for the Full Stack Bootcamp?
+A: Pricing varies by cohort and mentorship level. Students can choose monthly installment plans or one-time payments.
+
+Q: Do you offer EMI options?
+A: Yes. EMI and installment payment options are available for eligible students.
+
+Q: Is there any free trial available?
+A: Selected courses provide introductory free modules before enrollment.
+
+Q: Can I get a refund if I am not satisfied?
+A: Refund requests are accepted within 7 days of enrollment if course completion remains below the refund eligibility threshold.
+
+Q: Are scholarships available?
+A: Merit-based and financial assistance scholarships are available for selected programs.
+
+==================================================
+CAREER & OUTCOME QUESTIONS
+==================================================
+
+Q: Will this course help me switch careers into tech?
+A: Yes. Many students use the programs for transitioning into software engineering, AI engineering, data analytics, and product roles.
+
+Q: What salary packages do students typically receive?
+A: Outcomes vary based on prior experience, skills, and location. Placement reports are shared during counseling sessions.
+
+Q: Do you guarantee placements?
+A: The platform provides placement assistance but does not guarantee job offers.
+
+Q: Can I build real projects during the course?
+A: Yes. Students build portfolio-ready real-world projects throughout the program.
+
+Q: Are mock interviews included?
+A: Yes. Premium plans include technical mock interviews and behavioral interview preparation.
+
+==================================================
+LIVE CLASS & MENTOR QUESTIONS
+==================================================
+
+Q: What happens if I miss a live class?
+A: Recordings are uploaded to the dashboard within 24 hours.
+
+Q: Can I ask doubts directly to mentors?
+A: Yes. Live doubt-solving sessions and community support are included in premium plans.
+
+Q: Are mentors industry professionals?
+A: Yes. Most mentors are experienced engineers, AI practitioners, and hiring managers from top companies.
+
+Q: Can I switch my batch timing later?
+A: Batch transfers depend on seat availability and are generally allowed within the first two weeks.
+
+==================================================
+TECHNICAL SUPPORT
+==================================================
+
+Q: Videos are buffering during lessons.
+A: Students should use stable internet connections and modern browsers for best performance.
+
+Q: The coding playground is not loading.
+A: Browser extensions, VPNs, or firewall restrictions may interfere with the coding environment.
+
+Q: I cannot access my purchased course.
+A: Access activation may take several minutes after successful payment verification.
+
+==================================================
+ESCALATION SCENARIOS
+==================================================
+
+Q: I want to talk to a human counselor.
+A: Counseling and admissions requests can be escalated to a live academic advisor.
+
+Q: I am unhappy with the mentor quality.
+A: Mentor quality complaints are reviewed by the academic operations team for resolution.
+
+Q: I want to cancel my enrollment immediately.
+A: Enrollment cancellation requests are handled according to the refund and cancellation policy.
+
+Q: I want to file a formal complaint.
+A: Formal complaints are escalated directly to compliance and student success teams.
