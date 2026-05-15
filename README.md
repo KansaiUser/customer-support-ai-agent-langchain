@@ -1,6 +1,6 @@
 # Customer Support AI Agent with FastAPI + LangChain + ChromaDB
 
-Production-style minimal AI customer support backend.
+Production-style AI customer support backend.
 
 ---
 
