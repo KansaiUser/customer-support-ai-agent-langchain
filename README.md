@@ -23,6 +23,7 @@ Production-style AI customer support backend.
 ✅ Escalation Logic  
 ✅ Frontend Ready  
 ✅ Minimal & Clean Architecture  
+✅ Observability with langsmith
 
 ---
 
