@@ -19,7 +19,9 @@ vectorstore = Chroma(
     embedding_function=embeddings
 )
 
-retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
+retriever = vectorstore.as_retriever(
+    search_kwargs={"k": 3}
+)
 
 qa_chain = RetrievalQA.from_chain_type(
     llm=llm,
@@ -29,21 +31,18 @@ qa_chain = RetrievalQA.from_chain_type(
 ESCALATION_KEYWORDS = [
     "angry",
     "lawsuit",
-    "cancel account",
-    "refund immediately",
-    "human agent",
+    "human agent"
 ]
 
 def should_escalate(query):
     return any(word in query.lower() for word in ESCALATION_KEYWORDS)
 
 def ask_support_agent(query):
-
     if should_escalate(query):
         return {
             "success": True,
             "escalated": True,
-            "answer": "Escalating to a human support agent."
+            "answer": "Escalating to a human agent"
         }
 
     result = qa_chain.invoke({

@@ -1,137 +1,78 @@
-==================================================
-SKILLSYNC AI — COURSE SUPPORT KNOWLEDGE BASE
-==================================================
+SKILLSYNC AI — INTERNAL OPERATIONS & SUPPORT KNOWLEDGE BASE
+Document Version: 2026.4.1
 
-ABOUT THE PLATFORM
+Classification: Internal Support Facing Only
 
-SkillSync AI is an AI-powered EdTech platform offering:
-- Full-stack development bootcamps
-- AI & Machine Learning programs
-- Data Analytics tracks
-- UI/UX design courses
-- Interview preparation
-- Live mentorship
-- Career transition programs
+1. Course Catalog & Fee Structures
+Use this matrix to verify program details, prerequisites, and pricing tiers. Do not quote unauthorized discounts.
 
-The platform supports:
-- beginners
-- working professionals
-- college students
-- enterprise upskilling
+Program Track,Duration,Tuition Fee (One-Time),EMI Option (Monthly),Core Tech Stack / Tools Taught,Prerequisites
+Full-Stack Web Dev,6 Months,"$2,400",$250 / 10 mos,"HTML5, CSS3, JS (ES6+), React 19, Node.js, Express, MongoDB, Next.js, Docker, AWS EC2",None. True beginner friendly.
+AI Engineering,4 Months,"$3,200",$350 / 10 mos,"Python, PyTorch, Scikit-Learn, Hugging Face, LangChain, Pinecone, LlamaIndex, vLLM",Basic Python & Linear Algebra required.
+Data Analytics,3 Months,"$1,800",$200 / 10 mos,"SQL (PostgreSQL), Excel, Tableau, Python (Pandas/NumPy), PowerBI",None.
+UI/UX Product Design,4 Months,"$2,000",$220 / 10 mos,"Figma, Adobe XD, Miro, Principle, User Research Methodologies, Portfolio Architecture",None.
 
-==================================================
-COURSE DISCOVERY & PRE-SALES
-==================================================
 
-Q: Do you provide a Full Stack Web Development course?
-A: Yes. SkillSync AI offers a 6-month Full Stack Web Development Bootcamp covering HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, APIs, authentication, deployment, and system design.
+2. Financial, Refund, & Cancellation Policies
+This section contains strict legal and financial constraints. The AI must compute eligibility before escalating to billing.
 
-Q: Do you have AI or Machine Learning courses?
-A: Yes. The AI Engineering Program includes Python, machine learning, deep learning, LLM applications, vector databases, LangChain, RAG systems, AI agents, and deployment workflows.
+The 7-Day Conditional Refund Policy
+Students can request a refund within 7 calendar days of their cohort start date (Day 1 is the official cohort launch day, not the payment day). However, a refund is strictly voided if either of the following conditions is met:
 
-Q: Is there a course specifically for beginners?
-A: Yes. Beginner-friendly learning paths are available with no prior coding experience required.
+The user has consumed more than 15% of the total course video modules.
 
-Q: Do you provide placement assistance?
-A: Yes. Placement support includes resume reviews, mock interviews, LinkedIn optimization, job referrals, and hiring partner access.
+The user has downloaded any offline source code assets or specialized course e-books.
 
-Q: Are the classes live or recorded?
-A: Most premium programs include both live mentor-led classes and recorded content for flexible learning.
+The Refund Math Formula: All approved refunds are subject to a non-refundable $150 administrative and registration fee.
 
-Q: Do you provide certificates after course completion?
-A: Yes. Industry-recognized certificates are issued after successful completion of assessments and projects.
+Example Calculation: If a Full-Stack student ($2,400) cancels on Day 4 and has watched 5% of the videos, their approved refund amount is exactly $2,250 ($2,400 - $150).
 
-Q: Can working professionals join the courses?
-A: Yes. Weekend and evening cohorts are designed specifically for working professionals.
+Installments & EMI Defaults
+Grace Period: Monthly installments are due on the 1st of each month. A 5-day grace period is automatically applied.
 
-Q: Do you provide internship opportunities?
-A: Selected advanced programs include internship and capstone project opportunities with partner companies.
+Account Suspension: On the 6th of the month, if payment fails, the system automatically revokes access to the live mentor links and the coding playground.
 
-Q: Which programming languages are taught in the AI program?
-A: The AI program primarily uses Python along with libraries such as NumPy, Pandas, Scikit-learn, TensorFlow, and PyTorch.
+Late Fee: A flat fee of $25 is automatically appended to the invoice on the 7th of the month. Access cannot be restored by support staff manually; the student must clear the balance via their dashboard.
 
-Q: Do you teach LangChain and AI agents?
-A: Yes. The Generative AI track includes LangChain, Retrieval-Augmented Generation (RAG), AI agents, vector databases, prompt engineering, and LLM application deployment.
 
-==================================================
-PRICING & PAYMENT QUESTIONS
-==================================================
+3. Academic Operations & Batch Management
+Batch Transfer Requests
+Students frequently ask to move to a future cohort due to work or personal emergencies.
 
-Q: What is the fee for the Full Stack Bootcamp?
-A: Pricing varies by cohort and mentorship level. Students can choose monthly installment plans or one-time payments.
+Within first 14 days: Free, automated transfer allowed, provided the target cohort has open seats (cap is 50 students per cohort).
 
-Q: Do you offer EMI options?
-A: Yes. EMI and installment payment options are available for eligible students.
+Day 15 to Day 45: Permitted only under medical/professional emergencies with documentation. A $100 batch-migration fee applies.
 
-Q: Is there any free trial available?
-A: Selected courses provide introductory free modules before enrollment.
+After Day 45: Strictly prohibited. The student must instead withdraw and re-enroll with a 30% returning-student discount.
 
-Q: Can I get a refund if I am not satisfied?
-A: Refund requests are accepted within 7 days of enrollment if course completion remains below the refund eligibility threshold.
+Attendance & Certification
+To receive an Industry-Certified Sync-Credential, a student must maintain a minimum 75% live class attendance record AND score at least 70% on the Capstone Project evaluation.
 
-Q: Are scholarships available?
-A: Merit-based and financial assistance scholarships are available for selected programs.
+If a live class is missed, watching the recorded session on the dashboard within 48 hours counts as "delayed attendance" for up to 5 classes maximum per track.
 
-==================================================
-CAREER & OUTCOME QUESTIONS
-==================================================
+4. Technical Support Runbooks
+If a student reports a technical glitch, walk them through these technical protocols before escalating a ticket to Engineering.
 
-Q: Will this course help me switch careers into tech?
-A: Yes. Many students use the programs for transitioning into software engineering, AI engineering, data analytics, and product roles.
+Issue A: Coding Playground Fails to Initialize
+The built-in browser IDE relies on WebGL and secure WebSockets (wss://).
 
-Q: What salary packages do students typically receive?
-A: Outcomes vary based on prior experience, skills, and location. Placement reports are shared during counseling sessions.
+Check Browser Compatibility: Confirm they are using Chrome (v110+), Edge (v110+), or Safari (v16+). Firefox requires changing network.websocket.allowInsecureFromHTTPS to true in advanced settings if they are behind certain corporate proxies.
 
-Q: Do you guarantee placements?
-A: The platform provides placement assistance but does not guarantee job offers.
+Ad-Blocker Interference: Extensions like uBlock Origin, Brave Shield, or Privacy Badger frequently block the isolated iframe container (sandbox.skillsync.ai). The student must whitelist the domain.
 
-Q: Can I build real projects during the course?
-A: Yes. Students build portfolio-ready real-world projects throughout the program.
+VPN/Corporate Firewall: If the student is on an enterprise network, port 8443 or 2222 might be blocked. Instruct them to disconnect from VPN or try a personal hotspot to isolate the issue.
 
-Q: Are mock interviews included?
-A: Yes. Premium plans include technical mock interviews and behavioral interview preparation.
+Issue B: Video Buffering or CDN Authorization Error
+SkillSync uses AWS CloudFront signed cookies for DRM video protection.
 
-==================================================
-LIVE CLASS & MENTOR QUESTIONS
-==================================================
+If a student sees a "403 Forbidden / Expired Token" error on a video, it means their local system clock is out of sync with the NTP server by more than 5 minutes. Instruct them to toggle "Set time automatically" in their OS settings and refresh the browser.
 
-Q: What happens if I miss a live class?
-A: Recordings are uploaded to the dashboard within 24 hours.
+5. Support Escalation Matrix & SLA Tiers
+The AI agent must never tell a user "I don't know." It must route the ticket to the correct department based on these strict keywords and SLA definitions.
 
-Q: Can I ask doubts directly to mentors?
-A: Yes. Live doubt-solving sessions and community support are included in premium plans.
-
-Q: Are mentors industry professionals?
-A: Yes. Most mentors are experienced engineers, AI practitioners, and hiring managers from top companies.
-
-Q: Can I switch my batch timing later?
-A: Batch transfers depend on seat availability and are generally allowed within the first two weeks.
-
-==================================================
-TECHNICAL SUPPORT
-==================================================
-
-Q: Videos are buffering during lessons.
-A: Students should use stable internet connections and modern browsers for best performance.
-
-Q: The coding playground is not loading.
-A: Browser extensions, VPNs, or firewall restrictions may interfere with the coding environment.
-
-Q: I cannot access my purchased course.
-A: Access activation may take several minutes after successful payment verification.
-
-==================================================
-ESCALATION SCENARIOS
-==================================================
-
-Q: I want to talk to a human counselor.
-A: Counseling and admissions requests can be escalated to a live academic advisor.
-
-Q: I am unhappy with the mentor quality.
-A: Mentor quality complaints are reviewed by the academic operations team for resolution.
-
-Q: I want to cancel my enrollment immediately.
-A: Enrollment cancellation requests are handled according to the refund and cancellation policy.
-
-Q: I want to file a formal complaint.
-A: Formal complaints are escalated directly to compliance and student success teams.
+SKILLSYNC AI — INTERNAL OPERATIONS & SUPPORT KNOWLEDGE BASEDocument Version: 2026.4.1Classification: Internal Support Facing Only1. Course Catalog & Fee StructuresUse this matrix to verify program details, prerequisites, and pricing tiers. Do not quote unauthorized discounts.Program TrackDurationTuition Fee (One-Time)EMI Option (Monthly)Core Tech Stack / Tools TaughtPrerequisitesFull-Stack Web Dev6 Months$2,400$250 / 10 mosHTML5, CSS3, JS (ES6+), React 19, Node.js, Express, MongoDB, Next.js, Docker, AWS EC2None. True beginner friendly.AI Engineering4 Months$3,200$350 / 10 mosPython, PyTorch, Scikit-Learn, Hugging Face, LangChain, Pinecone, LlamaIndex, vLLMBasic Python & Linear Algebra required.Data Analytics3 Months$1,800$200 / 10 mosSQL (PostgreSQL), Excel, Tableau, Python (Pandas/NumPy), PowerBINone.UI/UX Product Design4 Months$2,000$220 / 10 mosFigma, Adobe XD, Miro, Principle, User Research Methodologies, Portfolio ArchitectureNone.2. Financial, Refund, & Cancellation PoliciesThis section contains strict legal and financial constraints. The AI must compute eligibility before escalating to billing.The 7-Day Conditional Refund PolicyStudents can request a refund within 7 calendar days of their cohort start date (Day 1 is the official cohort launch day, not the payment day). However, a refund is strictly voided if either of the following conditions is met:The user has consumed more than 15% of the total course video modules.The user has downloaded any offline source code assets or specialized course e-books.The Refund Math Formula: All approved refunds are subject to a non-refundable $150 administrative and registration fee.Example Calculation: If a Full-Stack student ($2,400) cancels on Day 4 and has watched 5% of the videos, their approved refund amount is exactly $2,250 ($2,400 - $150).Installments & EMI DefaultsGrace Period: Monthly installments are due on the 1st of each month. A 5-day grace period is automatically applied.Account Suspension: On the 6th of the month, if payment fails, the system automatically revokes access to the live mentor links and the coding playground.Late Fee: A flat fee of $25 is automatically appended to the invoice on the 7th of the month. Access cannot be restored by support staff manually; the student must clear the balance via their dashboard.3. Academic Operations & Batch ManagementBatch Transfer RequestsStudents frequently ask to move to a future cohort due to work or personal emergencies.Within first 14 days: Free, automated transfer allowed, provided the target cohort has open seats (cap is 50 students per cohort).Day 15 to Day 45: Permitted only under medical/professional emergencies with documentation. A $100 batch-migration fee applies.After Day 45: Strictly prohibited. The student must instead withdraw and re-enroll with a 30% returning-student discount.Attendance & CertificationTo receive an Industry-Certified Sync-Credential, a student must maintain a minimum 75% live class attendance record AND score at least 70% on the Capstone Project evaluation.If a live class is missed, watching the recorded session on the dashboard within 48 hours counts as "delayed attendance" for up to 5 classes maximum per track.4. Technical Support RunbooksIf a student reports a technical glitch, walk them through these technical protocols before escalating a ticket to Engineering.Issue A: Coding Playground Fails to InitializeThe built-in browser IDE relies on WebGL and secure WebSockets (wss://).Check Browser Compatibility: Confirm they are using Chrome (v110+), Edge (v110+), or Safari (v16+). Firefox requires changing network.websocket.allowInsecureFromHTTPS to true in advanced settings if they are behind certain corporate proxies.Ad-Blocker Interference: Extensions like uBlock Origin, Brave Shield, or Privacy Badger frequently block the isolated iframe container (sandbox.skillsync.ai). The student must whitelist the domain.VPN/Corporate Firewall: If the student is on an enterprise network, port 8443 or 2222 might be blocked. Instruct them to disconnect from VPN or try a personal hotspot to isolate the issue.Issue B: Video Buffering or CDN Authorization ErrorSkillSync uses AWS CloudFront signed cookies for DRM video protection.If a student sees a "403 Forbidden / Expired Token" error on a video, it means their local system clock is out of sync with the NTP server by more than 5 minutes. Instruct them to toggle "Set time automatically" in their OS settings and refresh the browser.5. Support Escalation Matrix & SLA TiersThe AI agent must never tell a user "I don't know." It must route the ticket to the correct department based on these strict keywords and SLA definitions.[Level 1: AI Agent] 
+       │
+       ├─► Account Access / Video Errors ──► Route to: Tech Support Team (SLA: 2 Hours)
+       ├─► Refund / EMI / Payment Failures ─► Route to: Billing Operations (SLA: 4 Hours)
+       ├─► Grading Appeals / Batch Shifts ──► Route to: Academic Ops (SLA: 24 Hours)
+       └─► Extreme Frustration / Threats ──► Route to: Student Success Manager (SLA: 30 Mins)
