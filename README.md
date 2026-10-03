@@ -158,6 +158,7 @@ console.log(data);
 
 ## Flow
 
+```
 ┌───────────────────────────────┐
 │      FAQs Knowledge Base      │
 │          (faqs.txt)           │
@@ -219,3 +220,4 @@ console.log(data);
 │         Final Answer          │
 │ Context-aware AI response     │
 └───────────────────────────────┘
+```
