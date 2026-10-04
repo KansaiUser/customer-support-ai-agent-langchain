@@ -1,8 +1,11 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from agent import ask_support_agent
+import mlflow
 
 from fastapi.middleware.cors import CORSMiddleware
+
+mlflow.set_tracking_uri("http://localhost:5000") 
 
 app = FastAPI(
     title="customer support ai agent"
@@ -26,6 +29,7 @@ def root():
     }
 
 @app.post("/chat")
+@mlflow.trace
 def chat(request: ChatRequest):
     response = ask_support_agent(request.message)
     return response

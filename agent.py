@@ -4,6 +4,7 @@ load_dotenv()
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_chroma import Chroma
 from langchain.chains import RetrievalQA
+import mlflow
 
 CHROMA_DB_DIR = "chroma_db"
 
@@ -37,6 +38,7 @@ ESCALATION_KEYWORDS = [
 def should_escalate(query):
     return any(word in query.lower() for word in ESCALATION_KEYWORDS)
 
+@mlflow.trace
 def ask_support_agent(query):
     if should_escalate(query):
         return {
