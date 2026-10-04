@@ -6,6 +6,8 @@ from langchain_chroma import Chroma
 from langchain.chains import RetrievalQA
 import mlflow
 
+mlflow.langchain.autolog()
+
 CHROMA_DB_DIR = "chroma_db"
 
 llm = ChatOpenAI(
@@ -38,7 +40,7 @@ ESCALATION_KEYWORDS = [
 def should_escalate(query):
     return any(word in query.lower() for word in ESCALATION_KEYWORDS)
 
-@mlflow.trace
+# @mlflow.trace
 def ask_support_agent(query):
     if should_escalate(query):
         return {

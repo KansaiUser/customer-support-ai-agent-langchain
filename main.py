@@ -29,7 +29,7 @@ def root():
     }
 
 @app.post("/chat")
-@mlflow.trace
+# @mlflow.trace
 def chat(request: ChatRequest):
     response = ask_support_agent(request.message)
     return response
